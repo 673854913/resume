@@ -1,0 +1,30 @@
+html, body {
+  margin:0;border:0;padding:0;
+  font-size:16px;
+  font-family:'Proxima';
+  overflow-x:hidden;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/*字体抗锯齿属性（平滑）*/
+html {
+    -webkit-font-smoothing: antialiased;
+}
+/*各部分公用*/
+header,section,footer {
+    text-align: center;
+    min-height: 400px;
+    overflow: hidden;
+    position: relative;
+    padding-top: 160px;
+    padding-bottom: 140px;
+    background: red;
+}
+/*内容居中*/
+.row{
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+    background: green;
+}
